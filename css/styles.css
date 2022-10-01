@@ -1,0 +1,217 @@
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bg-color:#FFFFFF ;
+    --primary-white-color:#FFFFFF;
+    --secondary-bg-color:#F5F4FA;
+    --accent-bg-color:#2F303A;
+}
+    
+    body{
+    color: var(--primary-text-color);
+    background-color: var(--primary-bg-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing:0.03em;
+}
+
+.list {
+    list-style: none;
+}
+
+/* Header */
+
+.logo{
+    color: var(--accent-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.logo-header{
+    color: #000000;
+}
+
+button {
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+font-style: normal;
+letter-spacing: 0.06em;
+align-items: center;
+text-align: center;
+display: flex;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+cursor: pointer;
+}
+.button-primary{
+color: var(--primary-white-color);
+background-color: var(--accent-color);
+}
+
+/* nav */
+
+.site-nav .link{
+    color: var(--title-text-color);
+   font-weight: 500;
+   line-height: 1.14;
+   letter-spacing: 0.02em; 
+   text-decoration: none;
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus,
+.auth-nav .link:hover,
+.auth-nav .link:focus,
+.footer-nav .link:hover,
+.footer-nav .link:focus{
+color: var(--accent-color);
+}
+
+.site-nav .link.current,
+.auth-nav .link.current,
+.btn-nav .link.current{
+color: var(--accent-color);
+}
+
+.auth-nav .link{
+text-decoration: none;
+color: var(--primary-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+
+/* Project */
+
+.project-title{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+text-align: center;
+color: var(--title-text-color);
+}
+.text{
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+text-align: center;
+color: var(--primary-text-color);
+}
+.project-nav .link{
+text-decoration: none;
+color: var(--title-text-color);
+}
+
+/* Hero */
+
+.hero-title {
+color: var(--primary-white-color);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;;
+text-align: center;
+text-transform: uppercase;
+}
+.hero{
+background-color: var(--accent-bg-color);
+}
+
+/* Section */
+
+.section-title {
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+}
+/*Feature*/
+.features-list .title {
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+}
+/* Work*/
+.work-list .title{
+position: absolute;
+width: 1170px;
+height: 421px;
+left: 215px;
+top: 931px;
+}
+/* team */
+.team {
+    background-color: var(--secondary-bg-color);
+}
+.team-title{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.text-team{
+font-size: 16px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+
+/* Button */
+.btn-primary,
+.btn-secondary {
+color: var(--title-text-color);
+background-color: var(--secondary-bg-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63; 
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+cursor: pointer;
+}
+
+.btn-primary{
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+.btn-secondary{
+color: var(--title-text-color);
+background-color: var(--secondary-bg-color);
+}
+.btn-nav .link:hover,
+.btn-nav .link:focus{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+/* Footer */
+.logo-footer{
+    color: var(--primary-white-color);
+}
+.footer-title {
+    background-color: var(--accent-bg-color);
+   
+}
+.footer-nav .link{
+text-decoration: none;
+color: rgba(255, 255, 255, 0.6);
+font-style: normal;
+
+}
+.address {
+    color: var(--primary-white-color);
+}
